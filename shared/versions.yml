@@ -71,20 +71,20 @@ couchdb:
     tag: 2.3.1
 dataloader:
   upstream:
-    repository: gpii/universal
-    tag: 20190522142238-4a52f56
+    repository: javjarfer/universal_demo_at
+    tag: latest
   generated:
-    repository: gcr.io/gpii-common-prd/gpii__universal
-    sha: sha256:57606b63cc431e1608c00d124e86a60b8f6d24196d0e600b0d279dee31395076
-    tag: 20190522142238-4a52f56
+    repository: javjarfer/universal_demo_at
+    sha: sha256:6a6026e305c85b963cef5b0248945ddbe2f31a8e5ddbe0fbe1c9f3bf46cd3471
+    tag: latest
 flowmanager:
   upstream:
-    repository: gpii/universal
-    tag: 20190522142238-4a52f56
+    repository: javjarfer/universal_demo_at
+    tag: latest
   generated:
-    repository: gcr.io/gpii-common-prd/gpii__universal
-    sha: sha256:57606b63cc431e1608c00d124e86a60b8f6d24196d0e600b0d279dee31395076
-    tag: 20190522142238-4a52f56
+    repository: javjarfer/universal_demo_at
+    sha: sha256:6a6026e305c85b963cef5b0248945ddbe2f31a8e5ddbe0fbe1c9f3bf46cd3471
+    tag: latest
 k8s_snapshots:
   upstream:
     repository: elsdoerfer/k8s-snapshots
@@ -103,12 +103,12 @@ locust:
     tag: 0.9.0-gpii.6
 preferences:
   upstream:
-    repository: gpii/universal
-    tag: 20190522142238-4a52f56
+    repository: javjarfer/universal_demo_at
+    tag: latest
   generated:
-    repository: gcr.io/gpii-common-prd/gpii__universal
-    sha: sha256:57606b63cc431e1608c00d124e86a60b8f6d24196d0e600b0d279dee31395076
-    tag: 20190522142238-4a52f56
+    repository: javjarfer/universal_demo_at
+    sha: sha256:6a6026e305c85b963cef5b0248945ddbe2f31a8e5ddbe0fbe1c9f3bf46cd3471
+    tag: latest
 service_account_assigner:
   upstream:
     repository: gpii/service-account-assigner
